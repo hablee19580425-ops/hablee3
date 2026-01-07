@@ -16,10 +16,10 @@ const App: React.FC = () => {
             <Gamepad2 className="w-8 h-8 text-indigo-400" />
           </div>
           <h1 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400 mb-4 tracking-tight drop-shadow-sm">
-            프래그매틱
+            Pragmatic
           </h1>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            자주 플레이하는 게임으로 바로 접속하세요.
+            Jump straight into your favorite games.
           </p>
         </header>
 
@@ -34,7 +34,7 @@ const App: React.FC = () => {
 
         {/* Footer */}
         <footer className="mt-16 text-center text-slate-500 text-sm py-6 border-t border-slate-800/50">
-          <p>&copy; {new Date().getFullYear()} 프래그매틱. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Pragmatic. All rights reserved.</p>
         </footer>
       </div>
     </div>
